@@ -13,7 +13,8 @@ Este é o frontend do Sistema Imobiliário, uma aplicação desenvolvida em Reac
 <h1>Funcionalidades</h1> <li>
 <strong>Listagem de Imóveis:</strong> Exibe uma lista completa de todos os imóveis cadastrados no sistema. Cada imóvel na lista possui um botão 
 <strong>Ver Detalhes</strong>, que redireciona para uma página individual onde as informações detalhadas sobre o imóvel são exibidas.</li>
-<li><strong>Visualização de Detalhes do Imóvel:</strong> Ao clicar no botão <strong>Ver Detalhes</strong> na listagem de imóveis, o usuário é levado para uma nova página dedicada àquele imóvel. Nesta página, o usuário pode visualizar informações completas como endereço, preço, descrição, fotos e mapa de localização.</li>
+<li><strong>Visualização de Detalhes do Imóvel:</strong> Ao clicar no botão
+<strong>Ver Detalhes</strong> na listagem de imóveis, o usuário é levado para uma nova página dedicada àquele imóvel. Nesta página, o usuário pode visualizar informações completas como endereço, preço, descrição, fotos e mapa de localização.</li>
 
 
 <h1>Tecnologias Utilizadas</h1>
