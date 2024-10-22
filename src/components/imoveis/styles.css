@@ -1,0 +1,114 @@
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    margin: auto;
+    max-width: 1400px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .container-imovel {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.container-imovel h1 {
+    font-size: 20px;
+}
+.container-valor{
+   display: flex;
+   gap: 15px;
+}
+.container-valor .price-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.location {
+    display: flex;
+    margin-top: 20px;
+    gap: 1px;
+    color: #495052;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+}
+
+.card-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card-link:hover {
+    background-color: #007bff;
+    color: white;
+}
+.msgerror {
+    color: #F44336;
+    background-color: rgba(244, 67, 54, 0.1);
+    border: 1px solid #F44336;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.msgerror:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-basis: calc(50% - 20px);
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex-basis: calc(100% - 20px);
+        width: auto;
+    }
+}

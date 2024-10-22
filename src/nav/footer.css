@@ -1,0 +1,12 @@
+.container-footer {
+    width: 100%;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons svg {
+    color: #3F3D3D; 
+}
