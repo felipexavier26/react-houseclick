@@ -2,11 +2,7 @@
 
 <p>
 Este é o frontend do Sistema Imobiliário, uma aplicação desenvolvida em React para gerenciar imóveis e usuários, permitindo funcionalidades como listar, adicionar, editar e excluir imóveis, além de visualizar detalhes de cada um.
-
 </p>
-
-
-
 
 <h1>Funcionalidades</h1> <li>
 <li><strong>Listagem de Imóveis:</strong> Exibe uma lista completa de todos os imóveis cadastrados no sistema. Cada imóvel na lista possui um botão .</li>
