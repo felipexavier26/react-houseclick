@@ -6,8 +6,6 @@ Este é o frontend do Sistema Imobiliário, uma aplicação desenvolvida em Reac
 </p>
 
 
-<h1>Link do Projeto</h1>
-<a href="https://react-houseclick.vercel.app" rel="nofollow"><strong>➥ Projeto</strong></a></p>
 
 
 <h1>Funcionalidades</h1> <li>
